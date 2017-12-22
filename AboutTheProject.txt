@@ -1,0 +1,17 @@
+In this project live streming data from Twitter is analyzed using Apache Pig and average rating of tweets is by seeing the words from AFINN.txt dictionary.
+
+Apache flume is used for fetching live streaming data from twitter.Using the file flume.conf twitter authentication are performed.
+
+
+FlumeCommand.txt file contain command that is used for fetching living streaming data.
+
+The tweets obtained in json format so the tweets are stored in
+twitterstream.json file 
+
+For Analyzing cloudera distribution is used in which pig queries were written for analyzing.
+
+The twitter data is then visualized using graphs and charts using R programming language and also  number of positive and negative tweets are also founded.
+
+tweets.rds file is used in R studio for visualization.
+
+TwitterSentimental.R is the required R file.  
